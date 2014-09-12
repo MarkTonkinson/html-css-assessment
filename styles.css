@@ -1,0 +1,83 @@
+html {
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	width:100%;
+	height: 50px;
+	color: gray;
+	font-size: 40px;
+	background-color: black;
+	margin-bottom: 100px;
+}
+
+
+.bigcontainer {
+	display: inline-flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.container1 {
+	border:1px solid red;
+	height: 300px;
+	width: 300px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+}
+.box-top {
+	background:red;
+	border:1px solid black;
+	width:300px;
+}
+
+.innerbox {
+	border: 1px solid black;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items:center;
+	height:30px;
+	width:280px;
+	margin-left:10px;
+	margin-top: 10px;
+}
+.innertext {
+
+}
+.start {
+	align-self: flex-end;
+}
+
+.container2 {
+	border:1px solid yellow;
+	height: 300px;
+	width: 300px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.container3 {
+	border:1px solid blue;
+	height: 300px;
+	width: 300px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+}
+.container4 {
+	border:1px solid black;
+	height: 300px;
+	width: 300px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
